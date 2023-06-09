@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <style>
+    body{
+        text-align: center;
+    }
+   table{
+        width: 70%;
+        line-height: 25px;
+        text-align: center;
+        border-collapse: collapse;
+        border-color:brown;
+        font-weight: bold;
+        color: rgb(178, 106, 17);
+        background-color: rgb(248, 238, 226);
+        margin-top: 5%;
+    }
+.trong{
+    width: 15%;
+    float: left;
+    height: 10%;
+}
+tr td img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    }
+td:nth-child(2){
+    width: 20%;
+    }
+.nut{
+    font-size: 20;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid burlywood;
+    font-weight: bold;
+    margin: 10;
+    padding: 10;
+    color: rgb(200, 129, 37);
+}
+.nut:hover{
+    color: white;
+    font-size: 20;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-weight: bold;
+    margin: 10;
+}
+
+        </style>
+    </head>
+    <body>
+<form action="" method="post">
+        <div style="font-size: 40;color: burlywood;font-family:'Courier New', Courier, monospace;font-weight: bold;margin-top: 5%;">ToCoToCo Đặt Hàng</div>
+        <div class="trong"></div>
+        <table border="3">
+            <tr>
+                <td>STT</td>
+                <td>Sản phẩm</td>
+                <td>Tên sản phẩm</td>
+                <td>Giá</td>
+                <td>Số lượng</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="TS1.jpg"></td>
+                <td>Trà Sữa Trân Châu Đường Hổ</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="TS2.png"></td>
+                <td>Trà Sữa Phô Mai Tươi</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="TS3.png"></td>
+                <td>Trà Đào Dâu Tây Kem Phô Mai</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><img src="TS4.png"></td>
+                <td>Trà Mận Hạt Sen</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><img src="TS5.jpg"></td>
+                <td>Ô Long Mận Chanh Leo</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><img src="TS6.jpg"></td>
+                <td>Trà Đào Bưởi Hồng Trân Châu</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><img src="TS7.jpg"></td>
+                <td>Ô Long Mận Kem Phô Mai</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><img src="TS8.png"></td>
+                <td>Choco Ngũ Cốc Kem Cafe</td>
+                <td>25.000đ</td>
+                <td><input style="border: 2px solid burlywood;" type="number" min="0" max="100" step="1"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Nhập địa chỉ nhận hàng: </td>
+                <td><textarea class="nut"></textarea></td>
+                <td>Tổng giá:</td>
+                <td><textarea class="nut" cols="5px"></textarea></td>
+            </tr>
+        </table>
+        <div style="margin-top: 5%;">
+            <input class="nut" type="button" value="Đặt hàng">
+            <input class="nut" type="reset" value="Nhập lại">
+        </div>
+        <div class="trong"></div>
+</form>
+    </body>
+</html>

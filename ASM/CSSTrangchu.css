@@ -1,0 +1,56 @@
+.trangchu{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;    
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.sanphamnoibat{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 0.8%;
+    margin: 4px;
+    margin-top: 2%;
+    float:left;
+    width: 22.5%;
+}
+.sanphamnoibat .ten{
+    font-size: larger;
+    font-variant: small-caps;
+
+}
+.sanphamnoibat img{
+    max-width: 90%;
+    border-radius: 5px;
+}
+.sanphamnoibat .gia{
+
+    font-weight: bold;
+    font-size: larger;
+}
+.sanphamnoibat .gia del{
+    color: gray;
+}
+.xemthem {
+    font-size: 30;
+    font-weight: bold;
+    border-radius:  10px;
+    color:burlywood;
+    background-color: white;
+    border: 2px solid #FEC195;
+    width:16%;
+    text-decoration: none;
+    padding: 10;
+}
+a.xemthem:hover {
+    border-radius:  10px;
+    font-size: 30;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+    background-color: burlywood;
+    border: 2px solid whitesmoke;
+    width:16%;
+    padding: 10;
+}
